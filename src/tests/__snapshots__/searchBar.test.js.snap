@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Searchbar Test Suite Should render Searchbar 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="¿Qué te gustaría ver?"
+    type="text"
+    value=""
+  />
+</form>
+`;

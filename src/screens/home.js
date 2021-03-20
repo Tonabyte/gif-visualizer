@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import SearchBar from '../components/searchBar';
 import Grid from '../components/grid';
 
-const Home = () => {
-  const [category, setCategory] = useState(['Elfen Lied']);
+const Home = ({ defaultConfigurations = [] }) => {
+  const [category, setCategory] = useState(defaultConfigurations);
 
   return(
     <>

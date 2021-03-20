@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Test Suite Should show Home component 1`] = `
+<Fragment>
+  <h2>
+    Gif Visualizer
+  </h2>
+  <Searchbar
+    addCategory={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Home Test Suite Should show Home component with configured categories 1`] = `
+<Fragment>
+  <h2>
+    Gif Visualizer
+  </h2>
+  <Searchbar
+    addCategory={[Function]}
+  />
+  <hr />
+  <ol>
+    <Grid
+      category="sun"
+      key="sun"
+    />
+    <Grid
+      category="happiness"
+      key="happiness"
+    />
+  </ol>
+</Fragment>
+`;

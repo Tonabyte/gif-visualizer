@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Test Suite Should load items when images are loaded 1`] = `
+<Fragment>
+  <h3>
+    test
+  </h3>
+  Cargando
+  <div
+    className="cardGrid"
+  >
+    <GifCard
+      id={0}
+      key="0"
+      title="title"
+      url="url"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Grid Test Suite Should show Grid component 1`] = `
+<Fragment>
+  <h3>
+    test
+  </h3>
+  Cargando
+  <div
+    className="cardGrid"
+  />
+</Fragment>
+`;

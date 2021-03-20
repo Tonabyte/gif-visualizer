@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const GifCard = ({ id, title, image }) => (
   <div className="card animate__animated animate__bounce">
@@ -6,5 +7,11 @@ const GifCard = ({ id, title, image }) => (
     <p>{title}</p>
   </div>
 );
+
+GifCard.propTypes = {
+  id: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+};
 
 export default GifCard;

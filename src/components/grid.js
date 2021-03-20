@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import useFetchGifs from '../hooks/useFetchGifs';
 
@@ -22,6 +23,10 @@ const Grid = ({ category }) => {
       </div>
     </>
     );
+};
+
+Grid.propTypes = {
+  category: PropTypes.string.isRequired,
 };
 
 export default Grid;
